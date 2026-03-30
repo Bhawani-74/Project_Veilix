@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f4f6f9;
+}
+
+/* LOGIN */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.auth-card {
+    width: 350px;
+    padding: 30px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.brand { margin-bottom: 5px; }
+.subtitle { color: #666; }
+
+input { border-radius: 6px !important; }
+
+.btn-primary {
+    background: #2563eb;
+    border: none;
+}
+
+.divider {
+    margin: 15px 0;
+    color: #999;
+}
+
+.google-btn {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: white;
+    border-radius: 6px;
+}
+
+/* DASHBOARD */
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 220px;
+    background: #111827;
+    color: white;
+    padding: 20px;
+}
+
+.sidebar li {
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.sidebar li.active,
+.sidebar li:hover {
+    background: #1f2937;
+}
+
+.main {
+    flex: 1;
+    background: #f4f6f9;
+}
+
+.topbar {
+    background: white;
+    padding: 15px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.section { display: none; }
+.section.active { display: block; }
+
+img { max-height: 300px; }

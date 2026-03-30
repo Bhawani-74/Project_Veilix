@@ -1,0 +1,10 @@
+opencv-python
+numpy
+pillow
+fastapi
+uvicorn
+python-multipart
+flask
+flask_sqlalchemy
+flask_login
+werkzeug
