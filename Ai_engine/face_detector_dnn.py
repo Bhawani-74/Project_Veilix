@@ -1,6 +1,6 @@
 import cv2
 
-# Load DNN model (use absolute path if needed)
+# Load DNN model 
 net = cv2.dnn.readNetFromCaffe(
     "C:/Users/Lenovo/OneDrive/Desktop/Veilix/models/deploy.prototxt",
     "C:/Users/Lenovo/OneDrive/Desktop/Veilix/models/res10_300x300_ssd_iter_140000.caffemodel"
