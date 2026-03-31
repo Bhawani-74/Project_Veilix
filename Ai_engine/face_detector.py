@@ -1,3 +1,4 @@
+#Basic Face Detector
 import cv2
 
 # Load DNN face detector model (use your absolute path if needed)
