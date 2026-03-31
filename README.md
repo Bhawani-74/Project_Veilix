@@ -14,6 +14,7 @@ Veilix is a full-stack AI-powered web application designed to protect user ident
 - Backend: Flask
 - Database: SQLite
 - AI: OpenCV
+- Programming language: Python, Javascript
 
 ## ▶️ Run Locally
 
