@@ -28,7 +28,7 @@ def index():
 def static_files(path):
     return send_from_directory("../frontend", path)
 
-# 🔥 PROTECT IMAGE ROUTE
+# PROTECT IMAGE ROUTE
 @app.route("/protect", methods=["POST"])
 def protect_image():
     if "image" not in request.files:
